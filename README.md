@@ -5,7 +5,7 @@
 Clone the repository
 
 ```
-git clone https://github.com/Alci6/-template-sveltekit-tailwind-jest.git YOUR-FOLDER-NAME
+npx degit https://github.com/Alci6/-template-sveltekit-tailwind-jest.git YOUR-FOLDER-NAME
 ```
 
 Enter in the folder and install all
