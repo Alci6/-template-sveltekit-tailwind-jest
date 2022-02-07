@@ -5,15 +5,13 @@
 Clone the repository
 
 ```
-WIP
+git clone https://github.com/Alci6/-template-sveltekit-tailwind-jest.git YOUR-FOLDER-NAME
 ```
-
-
 
 Enter in the folder and install all
 
 ```
-cd YOUR_FOLDER_NAME
+cd YOUR-FOLDER-NAME
 npm install
 ```
 
