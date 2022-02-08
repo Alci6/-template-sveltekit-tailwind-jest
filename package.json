@@ -56,6 +56,14 @@
 			"^.+\\.ts$": "ts-jest"
 		},
 		"moduleFileExtensions": ["js", "ts", "svelte"],
+
+		"moduleNameMapper": {
+			"components(.*)$": "<rootDir>/src/components$1",
+			"atoms(.*)$": "<rootDir>/src/components/atoms$1",
+			"molecules(.*)$": "<rootDir>/src/components/molecules$1",
+			"organisms(.*)$": "<rootDir>/src/components/organisms$1",
+			"pages(.*)$": "<rootDir>/src/components/pages$1"
+		},
 		"testEnvironment": "jsdom"
 	}
 }

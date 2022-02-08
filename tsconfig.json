@@ -25,7 +25,11 @@
 		"paths": {
 			"$lib": ["src/lib"],
 			"$lib/*": ["src/lib/*"],
-			"$components/": ["src/components/"]
+			"$components/": ["src/components/"],
+			"$atoms/*": ["src/components/atoms/*"],
+			"$molecules/*": ["src/components/molecules/*"],
+			"$organisms/*": ["src/components/organisms/*"],
+			"$pages/*": ["src/components/pages/*"]
 		}
 	},
 	"include": ["src/**/*.d.ts", "src/**/*.js", "src/**/*.ts", "src/**/*.svelte"]
