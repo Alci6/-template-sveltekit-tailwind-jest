@@ -1,6 +1,6 @@
-# Sveltekit with Typescript, TailwindCSS and Jest
+# Sveltekit with Typescript, TailwindCSS, Jest and Storybook
 
-> ✨ Community template for Sveltekit + Typescript + TailwindCSS + Jest
+> ✨ Community template for Sveltekit + Typescript + TailwindCSS + Jest + Storybook
 
 Clone the repository
 
@@ -23,6 +23,7 @@ npm install
 * TailwindCSS: 3.0.18
 * Jest: 27.5.0
 * Testing-Library: 3.0.3
+* Storybook: 6.5.0-alpha.38
 * Eslint: 7.32.0
 * Prettier: 2.4.1
 
@@ -35,6 +36,8 @@ I use to delete /lib because I use a custom version of [Atomic Design](https://a
   * molecules/
   * organisms/
   * pages/
+
+I added a Button in ./src/components/atoms/ from Storybook to test that works with alias (dynamic path) and with tailwind (you can delete it) 
 
 ## Basic Available Scripts
 
@@ -55,6 +58,9 @@ Launch jest battery of tests
 ### npm run test:watch
 
 Launch jest battery of tests in every change of document.
+
+### npm run storybook
+Launch storybook. You can enter openning [http://localhost:6006](http://localhost:6006) to view it in the browser.
 
 ### others scripts
 
