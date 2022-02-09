@@ -5,7 +5,7 @@
 Clone the repository
 
 ```
-npx degit alcibiadesc/template-sveltekit-tailwind-jest-storybook.git YOUR-FOLDER-NAME
+npx degit alcibiadesc/template-sveltekit YOUR-FOLDER-NAME
 ```
 
 Enter in the folder and install all
